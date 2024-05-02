@@ -34,7 +34,7 @@ class LandingServiceCard extends ConsumerWidget {
             color: context.colors.shadow,
             blurRadius: 12,
             offset: const Offset(0, 1),
-          )
+          ),
         ],
       ),
       child: Material(
@@ -113,10 +113,10 @@ class LandingServiceCard extends ConsumerWidget {
                           Icons.arrow_forward_ios_rounded,
                           size: 20,
                         ),
-                      )
+                      ),
                     ],
                   ),
-                )
+                ),
               ],
             ),
           ),

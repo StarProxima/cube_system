@@ -18,7 +18,7 @@ class LandingFeatureCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 100,
+      constraints: const BoxConstraints(minHeight: 105),
       decoration: BoxDecoration(
         color: context.colors.background,
         borderRadius: BorderRadius.circular(12),
@@ -27,7 +27,7 @@ class LandingFeatureCard extends StatelessWidget {
             color: context.colors.shadow,
             blurRadius: 12,
             offset: const Offset(0, 1),
-          )
+          ),
         ],
       ),
       child: Material(
